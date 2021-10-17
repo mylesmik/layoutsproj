@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         #primaryLinks {
-            background-color: burlywood;
             height: 100px;
-            border: 2px solid black;
             line-height: 100px;
-            width: 920px;
+            width: 953px;
             text-align: right;
+
         }
 
         #primaryLinks li {
@@ -33,15 +32,27 @@
             margin-left:auto;
             margin-right:auto;
         }
+        #logo{
+            float: left;
+        }
 
         #logo img{
-            width: 367px;
-            height:100px;
+            width: 150px;
+            height:120px;
             float: left;
         }
 
         #primaryContent{
-            clear:both;
+            clear: both;
+            width:553px;
+            float:left;
+        }
+
+        #footer{
+            clear: both;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
         }
     </style>
 
@@ -49,13 +60,13 @@
 <body>
 <div id="wrapper">
 <div id="logo">
-    <img src="images/logo.png">
+    <img src="images/logo.png" alt="Logo"/>
     <menu id="primaryLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="f.html">F-Layout</a></li>
         <li><a href="z.html">Z-Layout</a></li>
     </menu>
-
+</div>
     <article id="primaryContent">
         <h1>BROWSER WARS</h1>
         <ul>
@@ -76,7 +87,6 @@
             </li>
         </ul>
     </article>
-</div>
     <div id="sideContent">
         <svg height="210" width="400">
             <path d="M150 0 L75 200 L225 200 Z"/>
