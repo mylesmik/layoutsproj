@@ -17,12 +17,12 @@
             float: left;
         }
 
-        #secondaryContent {
-            background-color: aquamarine;
+        #sideContent img {
+            width: 280px;
+            height: 150px;
         }
 
         #primaryLinks {
-            background-color: aqua;
             height: 100px;
             border: 1px solid black;
             margin-top: 0px;
@@ -33,7 +33,6 @@
         #primaryContent {
             float: left;
             width: 66%;
-            background-color: bisque;
             clear: both;
         }
 
@@ -49,45 +48,40 @@
 
         #footer {
             clear: both;
-            background-color: antiquewhite;
-        }
+            text-align: center;
+            }
 
         #hero {
-            width: 60%;
+            width: 90%;
             height: 200px;
             background-image: url("images/herologo.jpg");
             background-repeat: no-repeat;
             background-size: contain;
+            background-position: center;
         }
 
     </style>
 </head>
 <body>
 <div id="wrapper">
-<div id="logo">
-    <img src="images/zlogo.png"/>
-</div>
-<menu id="primaryLinks">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="f.html">F-Layout</a></li>
-    <li><a href="z.html">Z-Layout</a></li>
-</menu>
-<div id="hero">
-    <h1>Hero Text</h1>
-</div>
+    <div id="logo">
+        <img src="images/zlogo.png"/>
+    </div>
+    <menu id="primaryLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="f.html">F-Layout</a></li>
+        <li><a href="z.html">Z-Layout</a></li>
+    </menu>
+    <div id="hero">
+        <h1>This is just a sample layout</h1>
+    </div>
     <article id="primaryContent">
-    <h1>BROWSER WARS</h1>
-    <ul>
+        <h1>BROWSER WARS</h1>
         <ul>
-
-            <li>In 1993, Mark Anderson (Founder, MOSAIC) launched and tested MOSAIC with 12 people. The test was a
-                success and slowly the word about MOSAIC spread and everyone started using it.
-            </li>
+            <li>In 1993, Mark Anderson (Founder, MOSAIC) launched and tested MOSAIC with 12 people.</li>
 
             <li> In February 1994, they took a plane to Illinois in order to form a team to expand their business and to
-                have a free web browser for all. Bill Gates did not agree with this, he wanted the whole world to use
-                the internet through some kind of a toll both for which he had designed MSN.com.
-                He was arrogant and did not accept or agree to any new ideas.
+                have a free web browser for all.\
             </li>
 
             <li> In the Summer of 1994, Jim Clarke and his team developed NetScape in a few months. It was better than
@@ -99,20 +93,38 @@
                 declared that the Web is the single most important component and that they had to match the level of
                 NetScape or get better and beat NetScape.
             </li>
+            <li> By 1995, the Internet was a global phenomenon. NetScape started expanding their business.
+                They fired Gary Reback, an antitrust lawyer who worked and fought for companies in the Silicon Valley,
+                such as Microsoft.
+            </li>
+            <li> Microsoft arranged a meeting with NetScape and offered them 1M$ to buy NetScape or else they told them
+                that they would copy their idea regardless, so might as well make money out of it but this was against
+                the law so NetScape asked Reback to sue Microsoft, who felt that this was just a huge setup by NetScape.
+            </li>
+            <li> NetScape wanted to go public with an IPO but Wall Street had only allowed companies with at least 2
+                years business experience period whereas NetScape only had 1 year of this experience. However, on the
+                day of the IPO release, their stocks went through the roof. They had invested 5M$ which on the day of
+                the IPO release went up to 663M$.
+            </li>
+            <li> On December 7 1995, Microsoft let the world know that they were not done yet with the release of the
+                Internet Explorer in order to beat NetScape. In 1995 people referred to the browser as NetScape but this
+                was about to change. NetScape was in trouble as Microsoft had better salesmen and better marketing teams
+                which were their hidden weapons. Their salesmen convinced people to not install anything other than
+                Internet Explorer.
+            </li>
         </ul>
-    </ul>
-</article>
-<div id="secondaryContent">
-    <svg height="280" width="400">
-        <path d="M150 0 L75 200 L225 200 Z"/>
-        Sorry, your browser does not support inline SVG.
-    </svg>
-</div>
-<footer id="footer">
+    </article>
+    <div id="sideContent">
+        <img src="images/web.png" alt="Logo"/>
+        <img src="images/ie.jpg" alt="Logo"/>
+        <img src="images/net.jpg" alt="Logo"/>
+    </div>
 
-    Myles Dsouza &#169;
+    <footer id="footer">
 
-</footer>
+        Myles Dsouza &#169;
+
+    </footer>
 </div>
 </body>
 </html>
